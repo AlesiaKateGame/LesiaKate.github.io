@@ -1499,9 +1499,7 @@ section {
 .task__bar {
   position: absolute;
   top: 30%;
-  left: 30%;
-  width: 34%;
-  height: 95%;
+  left: calc(50% - 207px);
   background-color: #494f5b;
   border-radius: 20px; }
   .task__bar .task__bar-icons {
@@ -2747,7 +2745,8 @@ section#task-Level {
   height: 840px;
   left: 40%;
   position: absolute;
-  background-size: contain; }
+  background-size: contain;
+  top: -55px; }
 
 .hi_score_table {
   position: relative;
