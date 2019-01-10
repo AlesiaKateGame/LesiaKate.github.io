@@ -1501,7 +1501,8 @@ section {
   top: 30%;
   left: calc(50% - 207px);
   background-color: #494f5b;
-  border-radius: 20px; }
+  border-radius: 20px;
+  padding: 0 20px; }
   .task__bar .task__bar-icons {
     display: flex;
     width: 375px;
