@@ -448,7 +448,7 @@ body {
     background-repeat: no-repeat;
     background-position: center; }
     .table__container .login__table .hero__container {
-      top: 40%;
+      top: 43%;
       right: 19%;
       display: flex;
       justify-content: space-around;
@@ -512,6 +512,8 @@ body {
         border: 3px solid white;
         text-transform: uppercase;
         width: 100%; }
+      .table__container .login__table .input__container #input__container-input:required {
+        background-color: #9d5654; }
       .table__container .login__table .input__container #input__container-input:focus {
         outline: none;
         background-color: rgba(255, 255, 255, 0.3); }
